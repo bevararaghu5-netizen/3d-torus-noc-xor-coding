@@ -1,6 +1,8 @@
-# XOR-Based Functional Testing and Routing Analysis for 3D Network-on-Chip
+# HIGH-EFFICIENCY TEST ARCHITECTURE FOR 3D TORUS
+NoC USING XOR-BASED CODING
 
 > B.Tech Final-Year Project | Electronics and Communication Engineering  
+> **Author / Repository Maintainer:** B. Raghunadh  
 > **Focus:** 3D Mesh and 3D Torus topologies, dimension-based routing, XOR-based network coding, and Verilog RTL simulation.
 
 ## Overview
@@ -93,31 +95,31 @@ Once those files are added, document:
 
 Do not treat the screenshots alone as a complete, reproducible simulation package.
 
+## Author and license
+
+**Author / Repository Maintainer:** B. Raghunadh. See [`LICENSE`](LICENSE) for the license covering original project code and documentation where the author has the rights to license them. Third-party research papers and supplied figures remain subject to their respective rights and licenses.
+
+## References and source documents
+
+See [`references/references.md`](references/references.md) for the research-paper bibliography, DOI/publisher links, and notes about included source materials. The available project thesis and abstract are stored under `references/source-materials/`. The primary IEEE paper is linked by DOI rather than copied as a PDF because a redistribution-permitted copy was not available in the supplied files.
+
 ## Repository structure
 
 ```text
 .
 ├── README.md
-├── rtl/                  # Add original Verilog modules
-├── testbench/            # Add original testbenches
-├── docs/                 # Thesis, abstract and presentation (if shareable)
-├── references/           # Bibliographic references and citations
+├── LICENSE
+├── rtl/                  # Verilog RTL modules and notes
+├── testbench/            # Verilog testbenches and validation notes
+├── references/
+│   ├── references.md     # Paper citations and DOI links
+│   └── source-materials/ # Supplied thesis and abstract PDFs
 └── results/
     ├── diagrams/
     ├── graphs/
     └── waveforms/
 ```
 
-## Project documentation
-
-Recommended files to add after checking permissions and source material:
-
-- `docs/abstract.pdf`
-- `docs/thesis.pdf`
-- `docs/project-presentation.pdf`
-- `references/references.md`
-
-Before uploading a thesis, presentation, or paper written by someone else, check whether you have permission to redistribute it. For published papers, bibliographic citations and publisher links are usually preferable to uploading full copyrighted PDFs.
 
 ## Limitations and interpretation
 
@@ -126,10 +128,10 @@ Before uploading a thesis, presentation, or paper written by someone else, check
 - Performance comparisons should include the original test conditions, topology dimensions, clock/timing constraints, and measurement method before being used as general conclusions.
 - XOR-based coding behavior and test coverage should be confirmed against the original RTL and thesis.
 
-## Authors
+## Author
 
-Add the project authors, supervisor, department, institution, and year here as appropriate.
+**B. Raghunadh** — repository maintainer. This is a project-team work; cite the underlying research papers and acknowledge other contributors where appropriate.
 
 ## License
 
-No license has been selected. Add a license only after confirming that the project authors have the right to license all included source files and assets.
+See [`LICENSE`](LICENSE). The license applies only to original project materials that the author has the right to license. Third-party papers and assets remain under their own terms.
